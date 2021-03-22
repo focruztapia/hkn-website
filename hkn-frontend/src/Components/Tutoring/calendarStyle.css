@@ -33,9 +33,10 @@
     width: 125px;
     height: 28px;
     background-color: #f7f7f7;
+    background-color: rgb(19, 14, 14);
     border: 1px solid #b7b7b7;
     line-height: 28px;
-    color: #6b6b6b;
+    color:#6b6b6b;
     text-align: center;
     font-size: 16px;
     font-weight: 700
@@ -45,14 +46,16 @@
     height: 100%;
     border-top: 1px solid #b7b7b7;
     border-bottom: 1px solid #b7b7b7;
-    background-color: #f7f7f7;
+    background-color: #b4b2b2;
     color: #6b6b6b
 }
 
 .weekCalendar__headerColumn {
     height: 100%;
     display: inline-block;
-    border-right: 1px solid #b7b7b7
+    color: white;
+    background-color: rgb(19, 14, 14);
+    border-right: 1px solid #b4b2b2
 }
 
 .weekCalendar__scaleColumn {
@@ -61,14 +64,17 @@
     left: 0;
     padding-top: 28px;
     width: 125px;
-    border-right: 1px solid #b7b7b7;
-    border-left: 1px solid #b7b7b7;
+    border-right: 1px solid #b4b2b2;
+    border-left: 1px solid #b4b2b2;
+    color: white;
+    background-color: rgb(51, 50, 50);
     text-align: center
 }
 
 .weekCalendar__scaleCell {
-    background-color: #fff;
-    border-bottom: 1px solid #b7b7b7
+    color: white;
+    background-color: rgb(43, 40, 40);
+    border-bottom: 1px solid #b4b2b2
 }
 
 .weekCalendar__content {
@@ -84,7 +90,7 @@
 }
 
 .weekCalendar__overlay_status_selection {
-    background-color: rgba(249, 105, 14, .2)
+    background-color: rgba(77, 74, 73, 0.2)
 }
 
 .weekCalendar__status_selection .weekCalendar__overlay {
@@ -103,13 +109,13 @@
 }
 
 .calendarBody__cell {
-    background-color: #fff;
-    border-bottom: 1px solid #b7b7b7
+    background-color: rgb(174, 174, 185);
+    border-bottom: 1px solid white
 }
 
 .calendarBody__column {
     display: table-cell;
-    border-right: 1px solid #b7b7b7;
+    border-right: 1px solid white;
     min-width: 100px
 }
 
@@ -135,8 +141,8 @@
     height: 100%;
     padding-left: 5px;
     font-size:16px;
-    color: #6b6b6b;
-    background-color: rgba(74, 151, 195, 0.4)
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7)
 }
 .event_highlighted {
     position: relative;
@@ -145,8 +151,8 @@
     height: 100%;
     padding-left: 5px;
     font-size:16px;
-    color: #6b6b6b;
-    background-color: rgba(74, 195, 128, 0.4)
+    color: rgb(2, 0, 2);
+    background-color: rgb(130, 171, 173)/*rgba(74, 195, 128, 0.4)*/
 }
 
 

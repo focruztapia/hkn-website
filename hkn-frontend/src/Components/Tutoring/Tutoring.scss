@@ -45,7 +45,9 @@
 .TitleFont{
     @include titleFont;
 }
-
+.Tutoring :active{
+    text-decoration: none;
+}
 .AboutTutoring{
     margin-top: 100px;
     margin-left: 5%;
@@ -53,12 +55,12 @@
         @include textFont;
         margin-right: 5%;
         margin-top: 30px;
-        .Discord, :visited{
+        .Link, :visited{
             color: white;
         }
-        .Discord:hover, :active{
-            color: inherit;
-            text-decoration: inherit;
+        .Link:hover{
+            color: lightblue;
+            text-decoration: underline;
         }
     }
 }
@@ -78,20 +80,36 @@
     display: grid;
     grid-template-columns: 3vh 20vh 40vh;
     grid-template-rows: 40px;
-    select, :active, :focus{
+    select{
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 16px;
         color:black;
         padding: 10px;
+        text-decoration: none;
         outline:none;
     }
     .Select1{
-        grid-column-start: 2;
+        grid-column-start: 1;
+    }
+    .subject{
+        display: block;
+        background-color: rgb(43, 40, 40);
+        color:white;
+        border: rgb(211, 208, 206);
     }
     .Select2{
         grid-column-start: 3;
     }
+    .num{
+        display: block;
+        background-color: rgb(43, 40, 40);
+        color:white;
+        border: rgb(208, 211, 211);
+    }
     .Submit{
+        display: block;
+        background-color: rgb(43, 40, 40);
+        color:white;
         grid-column-start: 4;
         grid-row-start: 1;
         width: 100px;
