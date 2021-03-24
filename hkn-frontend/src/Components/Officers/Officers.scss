@@ -36,26 +36,33 @@
         z-index: 0;
     }
 }
-/*flexbox wrapper for officer cards*/
+/*flexbox wrapper for officer cards this is the container for all officer cards*/
 .OfficerCards
 {
     display:flex;
     justify-content: center;
     align-items:center;
     flex-wrap: wrap;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+    margin-right: 1%;
+    margin-left: 1%;
 }
+/*officer is the container for an individual officer*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 .Officer{
     display:inline-block;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
-    height: 250px;
-    width: 250px;
+    width:250px;
+    height:300px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:30px;
     background-color: black;
-    margin: 20px 20px 90px 20px;
     color: whitesmoke;
     .ImageWrapper{
+        width:250px;
+        height:250px;
         position:relative;
     }
      /*styling of email text*/

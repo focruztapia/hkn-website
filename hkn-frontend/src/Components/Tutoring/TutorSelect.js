@@ -7,15 +7,14 @@ export default class TutorSelect extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            subjectValue: 'COM SCI',
-            numValue: '31',
+            subjectValue: 'EC ENGR',
+            numValue: '2',
             subjectData: subjectData
         };
         this.handleSubjectChange = this.handleSubjectChange.bind(this);
         this.handleNumChange = this.handleNumChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-
 
 
     handleSubjectChange(event) {
@@ -49,13 +48,13 @@ export default class TutorSelect extends Component {
         return (
             <div>
                 <form onSubmit={this.handleSubmit} className="TutorSelectForm">
-                    <label className="Select1">
-                        <select id='subject' value={this.state.subjectValue} onChange={this.handleSubjectChange}>
+                    <div className="Select1">
+                        <select className="subject" id='subject' value={this.state.subjectValue} onChange={this.handleSubjectChange}>
                             {this.makeOpts(Object.keys(this.state.subjectData))}
                         </select>
-                    </label>
+                    </div>
                     <label className="Select2">
-                        <select subject='num' value={this.state.numValue} onChange={this.handleNumChange}>
+                        <select className= "num" subject='num' value={this.state.numValue} onChange={this.handleNumChange}>
                             {this.makeOpts(Object.keys(this.state.subjectData[this.state.subjectValue]))}
                         </select>
                     </label>
