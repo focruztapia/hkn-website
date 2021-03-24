@@ -20,6 +20,13 @@ const OfficersData = [
 		email: "replace",
         bio: "Gillian is a third year electrical engineer and the External Vice President of HKN. Her role is finding professional development and jobs opportunities for members and the electrical engineering community on campus. She has managed several corporate events and planned the 2020 Electrical and Computer Engineering Career Fair in Fall. Outside of HKN, she is involved with the American Indian Science and Engineering Society and interested in machine learning projects."
 	},
+	// {
+	// 	id: "x",
+	// 	name: "Francisco Cruz Tapia",
+	// 	position: "Webmaster",
+	// 	email: "replace",
+	// 	bio: "replace"
+	// },
 	{
 		id: 4,
 		name: "Natalie Lin",
